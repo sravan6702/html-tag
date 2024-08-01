@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JobSearch Form</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+<form action="" method="post">
+  <h2 style="background:red;color:white">JobSearch.com</h2>
+  <h2>Create Your Account</h2>
+  <p style="color:red">*Required information</p>
+  <h3 style="background:grey;color:black">Basic Information</h3>
+<table style="text-align:center" width="100%">
+   	<tr>
+		<td><label>Email :</label></td>
+		<td><span style="color:red">*</span><input type="Email" name="Email" autofocus autocomplete="off" required></td>
+	</tr>
+	<tr>
+		<td><label>Password :</label></td>
+		<td><span style="color:red">*</span><input type="password" name="pswd" required></td>
+	</tr>
+    <tr>
+		<td><label>Retype Password :</label></td>
+		<td><span style="color:red">*</span><input type="password" name="psw" required> </td>
+    </tr>
+    <tr>
+		<td><label>First Name</label></td>
+		<td><span style="color:red">*</span><input type="text" name="Fname" required> </td>
+    </tr>
+	<tr>
+		<td><label>Last name</label></td>
+		<td><span style="color:red">*</span><input type="text" name="Lname" required> </td>
+	</tr>
+	<tr>
+		<td><label>Phone Number</label></td>
+		<td><span style="color:red">*</span><input type="tell" name="Phn No" placeholder="999-999-9999" required> </td>
+	</tr>
+	<tr>
+		<td><label>Address</label></td>
+		<td><span style="color:red">*</span> <input type="address" name="address" required> </td>
+	</tr>
+	<tr>
+		<td><label>City</label></td>
+		<td><span style="color:red">*</span><input type="text" name="city" required></td>
+	</tr>
+	<tr>
+		<td><label>Province</label></td>
+		<td><span style="color:red">*</span>
+			<select required>
+				<option value="">--Select--</option>
+				<option value="">Amaravati</option>
+				<option value="">Itanagar</option>
+				<option value="">Dispur</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td><label>Country</label></td>
+		<td><span style="color:red">*</span><input type="text" name="country" required></td>
+	</tr>
+	
+</table>
+<h3 style="background:gray;color:black">Education</h3>
+<table>
+	<tr>
+		<td><label>School</label></td>
+		<td><span style="color:red">*</span><input type="text" name="School" required></td>
+	</tr>
+	<tr>
+		<td><label>Program</label></td>
+		<td><span style="color:red">*</span><input type="text" name="program" required></td>
+	</tr>
+	<tr>
+		<td><label>Education Level</label></td>
+		<td><span style="color:red">*</span>
+		<select required>
+			<option value="">--select--</option>
+			<option value="">Intermediate</option>
+			<option value="">Degree</option>
+		</select>
+		</td>
+	</tr>
+	<tr>
+	    <td></td>
+		<td>
+			  <fieldset>
+				<legend>Education Status</legend>
+					<ul type="circle">
+						<li>Graduated</li>
+						<li>Current Enrolled</li>
+						<li>Did Not Graduated</li>
+					</ul>
+			  </fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td><label>Graduation Date</label></td>
+		<td>:<input type="text" name="date"></td>
+	</tr>
+</table>
+<h3 style="background:gray;color:black">Work Experience</h3>
+<table>
+	<tr>
+		<td><label>Employer</label></td>
+		<td>:<input type="text" name="employer"></td>
+	</tr>
+	<tr>
+		<td><label>Job Title</label></td>
+		<td>:<input type="text" name="Job Title"></td>
+	</tr>
+	<tr>
+		<td><label>Job Duty</label></td>
+		<td>:<textarea rows="5" cols="20"></textarea> </td>
+	</tr>
+	<tr>
+		<td><label>Worked Year</label></td>
+		<td>:
+			<select multiple>
+			  <option value=""></option>
+			  <option value="2020">2020</option>
+			  <option value="2021">2021</option>
+			  <option value="2022">2022</option>
+			  <option value="2023">2023</option>
+			  <option value="2024">2024</option>
+			 </selected>
+	</tr>
+</table>
+<h3 style="background:gray;color:black">Attachments</h3>
+<table>
+     <tr>
+			<td><label>Attachments</label></td>
+			<td>:<input type="file" name="file"></td>
+     </tr>
+	 <tr>
+	        <td></td>
+			<td>
+				<input style="background:red;color:white" type="Reset" value="Reset">
+				<input style="background:red;color:white" type="submit" value="Apply">
+			</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
+

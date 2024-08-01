@@ -1,0 +1,163 @@
+
+ 
+<!doctype html>
+<html lang="en">
+<head>
+	<title>html forms</title>
+	<meta charset="UTF=8">
+</head>
+<body>
+	<h3 style="text-align:center;">STUDENT REGISTRATION FORM</h3>
+<form action="" method="post" style="background:blue">
+	<table>
+		<tr>
+			<td><label>FIRST NAME:</label></td>
+			<td><input type="text" name="fname" >(max 30 characters a-z and A-Z)</td>
+		</tr>
+		<tr>
+			<td><label>LAST NAME:</label></td>
+			<td><input type="text" name="lname" >(max 30 characters a-z and A-Z)</td>
+		</tr>
+		<tr>
+			<td><label>DATE OF BIRTH:</LABEL></td>
+			<td>
+				<select>
+					<option value="day">Day</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select>
+				<select>
+					<option value="Month">Month</option>
+					<option value="january">january</option>
+					<option value="february">february</option>
+					<option value="march">march</option>
+					<option value="april">april</option>
+					<option value="may">may</option>
+					<option value="june">june</option>
+					<option value="july">july</option>
+					<option value="august">august</option>
+				</select>
+				<select>
+					<option value="Year">Year</option>
+					<option value="1995">1995</option>
+					<option value="1996">1996</option>
+					<option value="1997">1997</option>
+					<option value="1998">1998</option>
+					<option value="1999">1999</option>
+					<option value="2000">2000</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><label>EMAIL ID:</label>
+			<td><input type="text" name="emailid"></td>
+		</tr>
+		<tr>
+			<td><label>MOBILE NUMBER:</label></td>
+			<td><input type="text" name="mnumber">(10 digit number)</td>
+		</tr>
+		<tr>
+			<td><label>GENDER:</label></td>
+			<td>
+				<input type="radio" name=gender>male
+				<input type="radio" name="gender">female
+			</td>
+		</tr>
+		<tr>
+			<td><label>ADDRESS:</label></td>
+			<td>
+				<textarea rows="4" cols="30"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td><label>CITY:</label></td>
+			<td><input type="text" name="city">(max 30 characters a-z and A-Z)</td>
+		</tr>
+		<tr>
+			<td><label>PINCODE:</label></td>
+			<td><input type="text" name="pincode">(6 digit number)</td>
+		</tr>
+		<tr>
+			<td><label>STATE:</label></td>
+			<td><input type="text" name="state">(max 30 characters a-z and A-Z)</td>
+		</tr>
+		<tr>
+			<td><label>COUNTRY:</label></td>
+			<td><input type="text" name="country"></td>
+		</tr>
+		<tr>
+			<td><label>HOBBIES:</label></td>
+			<td name="check">Drawing<input type="checkbox">
+			<name="check">Singing<input type="checkbox">
+			<name="check">Dancing<input type="checkbox">
+			<name="check">Sketching<input type="checkbox"><br>
+			<name="check">Others<input type="checkbox">
+			<input type="text" name=""></td>
+		</tr>
+		</table>
+		<table style="background:blue">
+			<tr>
+				<th rowspan="5"><label>QUALIFICATION:</label></th>
+				<th>S.NO.</th>
+				<th>EXAMINATION</th>
+				<th>Board</th>
+				<th>Percentage</th>
+				<th>Year of Passing</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>class X</td>
+				<td><input type="text" name=""></td>
+				<td><input type="text" name=""</td>
+				<td><input type="text" name=""</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>class XII</td>
+				<td><input type="text" name=""</td>
+				<td><input type="text" name=""</td>
+				<td><input type="text" name=""</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Graduation</td>
+				<td><input type="text" name=""</td>
+				<td><input type="text" name=""</td>
+				<td><input type="text" name=""</td>
+			</tr>
+			
+			<tr>
+				<td>4</td>
+				<td>Masters</td>
+				<td><input type="text" name=""</td>
+				<td><input type="text" name=""</td>
+				<td><input type="text" name=""</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>( 10 char max)</td>
+				<td>(upto 2 decimal)</td>
+			</tr>
+			</table>
+			<table>
+				<tr>
+					<td>COURSES<br> APPLIED FOR:</td>
+					<td><input type="checkbox" name="check">BCA
+					<input type="checkbox" name="check">B.Com
+					<input type="checkbox" name="check">B.Sc
+					<input type="checkbox" name="check">B.A</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td><input type="submit" value="submit">
+					<input type="submit" value="Reset"></td>
+				</tr>
+			</table>
+	</body>
+	</html>
